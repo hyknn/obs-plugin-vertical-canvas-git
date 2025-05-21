@@ -21,7 +21,7 @@ makedepends=(
 )
 provides=('obs-plugin-vertical-canvas')
 conflicts=()
-options=()
+options=(!debug strip)
 source=('git+https://github.com/Aitum/obs-vertical-canvas.git#branch=main')
 sha256sums=('SKIP')
 
